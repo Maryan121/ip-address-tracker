@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>IP Address Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+     integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+     crossorigin=""/>
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+  integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+  crossorigin=""></script>
+  <script src="main.js" async></script>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <h1>IP Address Tracker</h1>
+      <div class="searching-part">
+        <input type="text" placeholder="Search for any IP address or domain">
+        <svg id="arrow" class="arrow" xmlns="http://www.w3.org/2000/svg" width="11" height="14"><path fill="none" stroke="#FFF" stroke-width="3" d="M2 1l6 6-6 6"/></svg>
+      </div>
+      <!--  -->
+    </div>
+  </main>
+  <div id="map"></div>
+  <div id="bottom-part" class="bottom-part">
+        <section class="section1">
+          <p>IP Address</p>
+          <h2 id="ipaddress"></h2>
+        </section>
+        <section class="section2">
+          <p>Location</p>
+          <h2 id="location"></h2>
+        </section>
+        <section class="section3">
+          <p>Timezone</p>
+          <h2 id="timezone"></h2>
+        </section>
+        <section class="section4">
+          <p>isp</p>
+          <h2 id="isp"></h2>
+        </section>
+      </div>
+</body>
+</html>
