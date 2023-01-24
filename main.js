@@ -6,7 +6,6 @@
     let arrow = document.getElementById('arrow');
     let input = document.querySelector('input');
     let bottomPart = document.getElementById('bottom-part');
-    let ip = '192.145.175.226';
     let ipAddress = document.getElementById('ipaddress');
     let user_location = document.getElementById('location');
     let timeZone = document.getElementById('timezone');
@@ -15,7 +14,7 @@
 
 
    
-    console.log(fetch(`https://ip-geolocation.whoisxmlapi.com/api/v1?apiKey=at_DenjOIPYrq9jC6AM3NW43t79X2aFE&ipAddress=${ip}`)
+    console.log(fetch(`https://ip-geolocation.whoisxmlapi.com/api/v1?apiKey=at_DenjOIPYrq9jC6AM3NW43t79X2aFE&`)
     .then(function(response){  return response.json()})
     .then((data) => { 
         ipAddress.innerHTML = data.ip;
