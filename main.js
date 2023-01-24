@@ -6,11 +6,12 @@
     let arrow = document.getElementById('arrow');
     let input = document.querySelector('input');
     let bottomPart = document.getElementById('bottom-part');
+    let ip = '192.145.175.226';
     let ipAddress = document.getElementById('ipaddress');
     let user_location = document.getElementById('location');
     let timeZone = document.getElementById('timezone');
     let isp = document.getElementById('isp');
-    let ip = '8.8.8.8';
+    
 
 
    
