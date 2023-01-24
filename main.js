@@ -11,7 +11,7 @@
     let timeZone = document.getElementById('timezone');
     let isp = document.getElementById('isp');
     
-    let ip = '192.145.175.226';
+
 
    
     console.log(fetch(`https://ip-geolocation.whoisxmlapi.com/api/v1?apiKey=at_DenjOIPYrq9jC6AM3NW43t79X2aFE&ipAddress=${ip}`)
