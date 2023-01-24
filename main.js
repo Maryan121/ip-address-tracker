@@ -10,7 +10,7 @@
     let user_location = document.getElementById('location');
     let timeZone = document.getElementById('timezone');
     let isp = document.getElementById('isp');
-    let ip = 8.8.8.8
+    let ip = '8.8.8.8';
 
 
    
