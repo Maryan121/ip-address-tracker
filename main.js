@@ -1,6 +1,6 @@
 
 
-//using ipify API
+
 
 
     let arrow = document.getElementById('arrow');
