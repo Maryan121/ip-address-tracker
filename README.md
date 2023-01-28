@@ -1,15 +1,10 @@
 # ip-address-tracker
 
 #built using: 
-
 --html
-
 --css
-
 --vanilla js
-
 --leaflet.js library
-
 --geolocationAPI
 
 
